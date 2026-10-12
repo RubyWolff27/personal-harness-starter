@@ -137,7 +137,14 @@ See `board/README.md` for the full list. Key ones:
 - Voice mode: https://support.claude.com/en/articles/11101966-use-voice-mode
 - Claude in Chrome: https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome
 
+## Self-install (AGENTS.md): can each assistant open GitHub?
+
+- Claude GitHub integration (public repos, every plan; adds files to a chat or project): https://support.claude.com/en/articles/10167454-use-the-github-integration and https://claude.com/docs/connectors/github
+- Claude web fetch only opens URLs that appear in the conversation, so the prompts include the raw link: https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool
+- ChatGPT GitHub app (reads repos you authorise, on demand; availability varies by plan and surface): https://help.openai.com/en/articles/11145903
+
 ## Things I couldn't verify
+- Whether ChatGPT's and Claude's apps reliably open a raw GitHub URL pasted in chat. Both usually can with web search on, but I couldn't test it, hence the ZIP fallback.
 - Claude: the list of scheduled-task approval modes, and whether a scheduled task can edit a Google Doc with nobody watching.
 - Grok Bot: which Google connectors Marketplace offers on your plan, and the price in rand.
 - Prices in rand for any of the three (all three list US dollars or vary by country).

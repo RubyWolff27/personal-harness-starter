@@ -4,6 +4,27 @@ A practical setup for running your week with **one AI assistant**, a **written-d
 
 No coding. No servers. Three 30-minute evenings to get going, then a few minutes a day.
 
+## Start in 2 minutes
+
+Paste the repo link and one prompt into your assistant, and it sets the harness up with you (it reads `AGENTS.md` and asks before it connects or creates anything). Pick your path:
+
+**1. Grok Bot (recommended)**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**2. Claude**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/personal-harness-starter/main/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**3. ChatGPT**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/personal-harness-starter/main/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
+
 ## The idea in one minute
 
 Your AI has two helpers.
@@ -119,7 +140,7 @@ On top of eight core skills (daily plan, capture, weekly review, monthly and qua
 
 ## Quick start (about 30 minutes)
 
-1. Read `SETUP.md` and pick your path.
+1. Fastest: use a prompt from **Start in 2 minutes** above. By hand: read `SETUP.md` and pick your path.
 2. Open that path's guide (`GROK-BOT.md`, `CLAUDE.md` or `CHATGPT.md`) and do **Evening 1 only**: lock the doors, set up the assistant with the eight core skills, run your first daily plan.
 3. Then Evening 2 (master prompt), Evening 3 (memory home in Google Drive), then Weeks 1 to 3.
 
@@ -128,6 +149,7 @@ On top of eight core skills (daily plan, capture, weekly review, monthly and qua
 ```text
 personal-harness-starter/
   README.md              this page
+  AGENTS.md              instructions your assistant follows to install the harness for you
   SETUP.md               start here: choose your path, shared core, red lines
   GROK-BOT.md            path 1 (recommended): Grok Bot, step by step
   CLAUDE.md              path 2: Claude, step by step

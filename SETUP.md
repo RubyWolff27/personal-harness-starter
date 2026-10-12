@@ -4,6 +4,29 @@ The harness is just files: a master prompt, a memory home, fourteen skills, a pe
 
 Checked against Grok Bot's, Anthropic's and OpenAI's own pages on 12 October 2026.
 
+## Start in 2 minutes (the fast way)
+
+Paste the repo link and one prompt into your assistant, and it sets the harness up with you (it reads `AGENTS.md` and asks before it connects or creates anything). Pick your path:
+
+**1. Grok Bot (recommended)**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Clone it, read AGENTS.md first and follow it: interview me, create my Google Docs memory home, save the skills and create my routines. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**2. Claude**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/personal-harness-starter/main/AGENTS.md) and follow it for Claude. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**3. ChatGPT**
+```text
+Set up my personal AI harness from https://github.com/RubyWolff27/personal-harness-starter. Read AGENTS.md first (raw link: https://raw.githubusercontent.com/RubyWolff27/personal-harness-starter/main/AGENTS.md) and follow it for ChatGPT. Ask before connecting accounts, writing documents or scheduling anything. I'm Adrian in Johannesburg.
+```
+
+**If it can't open the link:** on the repo page click **Code > Download ZIP**, upload the ZIP to the chat, and say "Read AGENTS.md in this ZIP and follow it." On Claude you can also add the repo to a project (project knowledge > + > GitHub). What each assistant can and can't do by itself is in `AGENTS.md`; the step-by-step guides are the fallback.
+
+Prefer to do it by hand? The guides below walk you through every step.
+
 ## The three paths, in my recommended order
 
 | | **1. Grok Bot (recommended)** | **2. Claude** | **3. ChatGPT** |
